@@ -1,0 +1,37 @@
+/* Yhteinen taustakuva kaikille sivuille */
+body {
+    margin: 0;
+    padding: 0;
+    background: url("taustakuva1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+/* Tumma läpinäkyvä kerros sisällön alle luettavuuden parantamiseksi */
+.content-area {
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #f8f9fa;
+}
+
+.content-inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Sivupalkki */
+.sidebar {
+    min-height: 100vh;
+}
+
+/* Aktiivinen linkki */
+.nav-link.active {
+    background-color: #0d6efd;
+}
+
+/* Pienillä näytöillä sivupalkki koko leveys ylhäällä, sisältö alle */
+@media (max-width: 767.98px) {
+    .sidebar {
+        min-height: auto;
+    }
+}
