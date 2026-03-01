@@ -1,4 +1,3 @@
- 
 /* Yhteinen taustakuva kaikille sivuille (paitsi yhteystiedot) */
 body {
     margin: 0;
@@ -41,3 +40,4 @@ body.yhteystiedot-bg {
 
 /* Valikon kuvake */
 .menu-icon
+
