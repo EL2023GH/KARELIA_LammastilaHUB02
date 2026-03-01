@@ -1,27 +1,58 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="fi">
 <head>
     <meta charset="UTF-8">
-    <title>Yhteystiedot - TESTI WWW</title>
+    <title>Yhteystiedot - Lammastila HUB</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-<div class="sidebar">
-    <h2>TESTI WWW</h2>
-    <a class="nav-link" href="index.html">Aloitus</a>
-    <a class="nav-link" href="teema1.html">Teema 1</a>
-    <a class="nav-link" href="teema2.html">Teema 2</a>
-    <a class="nav-link" href="teema3.html">Teema 3</a>
-    <a class="nav-link" href="yhteystiedot.html">Yhteystiedot</a>
+<body class="yhteystiedot-bg">
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+
+        <nav class="col-12 col-md-3 col-lg-2 sidebar bg-dark text-white">
+            <div class="p-3">
+                <h2 class="fs-4">Valikko</h2>
+                <ul class="nav nav-pills flex-column mb-auto" id="mainMenu">
+                    <li><a href="index.html" class="nav-link text-white">Etusivu</a></li>
+                    <li><a href="teema1.html" class="nav-link text-white">Teema1</a></li>
+                    <li><a href="teema2.html" class="nav-link text-white">Teema2</a></li>
+                    <li><a href="teema3.html" class="nav-link text-white">Teema3</a></li>
+                    <li><a href="yhteystiedot.html" class="nav-link text-white active">Yhteystiedot</a></li>
+                </ul>
+                <hr class="text-secondary">
+                <p id="deviceInfo" class="small text-secondary"></p>
+            </div>
+        </nav>
+
+        <main class="col py-3 content-area">
+            <div class="content-inner">
+                <h1 class="mb-4">Yhteystiedot</h1>
+
+                <p>Lammastila HUB</p>
+                <p>Esimerkkitie 123</p>
+                <p>70100 Kuopio</p>
+                <p>Puhelin: 040 123 4567</p>
+                <p>Sähköposti: info@lammastila-hub.fi</p>
+                <p>Y-tunnus: 1234567-8</p>
+                <p>Aukioloajat: sopimuksen mukaan.</p>
+                <p>Vierailut tulee varata etukäteen.</p>
+                <p>Ryhmille järjestetään opastuksia.</p>
+                <p>Parkkitilaa on rajoitetusti.</p>
+                <p>Esteettömyys huomioidaan mahdollisuuksien mukaan.</p>
+                <p>Tapahtumat löytyvät ajankohtaista-sivulta.</p>
+                <p>Yhteydenottolomake lisätään myöhemmin.</p>
+                <p>Palautetta otetaan vastaan.</p>
+                <p>Kiitos kiinnostuksesta!</p>
+            </div>
+        </main>
+
+    </div>
 </div>
 
-<div class="content">
-    <h1>Yhteystiedot</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-       Voit lisätä oikeat yhteystiedot myöhemmin.</p>
-</div>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
