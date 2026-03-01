@@ -20,7 +20,7 @@ body.yhteystiedot-bg {
     color: #f8f9fa;
 }
 
-/* 🔥 Täysin responsiivinen tekstialue */
+/* Täysin responsiivinen tekstialue */
 .content-inner {
     width: 100%;
     padding: 20px;
@@ -38,7 +38,15 @@ body.yhteystiedot-bg {
     background-color: #0d6efd;
 }
 
-/* Mobiilissa valikko kapeammaksi */
+/* Valikon kuvake */
+.menu-icon {
+    width: 18px;
+    height: auto;
+    margin-left: 6px;
+    vertical-align: middle;
+}
+
+/* Mobiilissa valikko kapeammaksi ja kuvake pienemmäksi */
 @media (max-width: 767.98px) {
     .sidebar {
         width: 120px !important;
@@ -50,5 +58,8 @@ body.yhteystiedot-bg {
         font-size: 0.8rem;
         padding: 6px 4px;
     }
+    .menu-icon {
+        width: 14px;
+        margin-left: 4px;
+    }
 }
-
