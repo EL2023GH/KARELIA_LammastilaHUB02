@@ -1,3 +1,5 @@
+
+
 /* Yhteinen taustakuva kaikille sivuille (paitsi yhteystiedot) */
 body {
     margin: 0;
@@ -39,5 +41,27 @@ body.yhteystiedot-bg {
 }
 
 /* Valikon kuvake */
-.menu-icon
+.menu-icon {
+    width: 18px;
+    height: auto;
+    margin-left: 6px;
+    vertical-align: middle;
+}
 
+/* Mobiilissa valikko kapeammaksi ja kuvake pienemmäksi */
+@media (max-width: 767.98px) {
+    .sidebar {
+        width: 120px !important;
+    }
+    .sidebar h2 {
+        font-size: 1rem;
+    }
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 6px 4px;
+    }
+    .menu-icon {
+        width: 14px;
+        margin-left: 4px;
+    }
+}
