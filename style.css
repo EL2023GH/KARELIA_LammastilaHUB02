@@ -1,3 +1,4 @@
+ 
 /* Yhteinen taustakuva kaikille sivuille (paitsi yhteystiedot) */
 body {
     margin: 0;
@@ -20,7 +21,7 @@ body.yhteystiedot-bg {
     color: #f8f9fa;
 }
 
-/* 🔥 Täysin responsiivinen tekstialue */
+/* Täysin responsiivinen tekstialue */
 .content-inner {
     width: 100%;
     padding: 20px;
@@ -38,17 +39,5 @@ body.yhteystiedot-bg {
     background-color: #0d6efd;
 }
 
-/* Mobiilissa valikko kapeammaksi */
-@media (max-width: 767.98px) {
-    .sidebar {
-        width: 120px !important;
-    }
-    .sidebar h2 {
-        font-size: 1rem;
-    }
-    .nav-link {
-        font-size: 0.8rem;
-        padding: 6px 4px;
-    }
-}
-
+/* Valikon kuvake */
+.menu-icon
