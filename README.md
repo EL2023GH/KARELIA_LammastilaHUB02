@@ -23,6 +23,3 @@ Aiheeseen jo perehtyneille ja aiheesta kiinnostuneille
 Testattu : pc Windows11 Edge ja mobiililaite Iphone12 Safari - toimii moitteetta.
 
 
-
-
-T
