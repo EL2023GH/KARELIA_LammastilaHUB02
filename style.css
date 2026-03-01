@@ -1,4 +1,4 @@
- /* Yhteinen taustakuva kaikille sivuille (paitsi yhteystiedot) */
+/* Yhteinen taustakuva kaikille sivuille (paitsi yhteystiedot) */
 body {
     margin: 0;
     padding: 0;
@@ -20,8 +20,10 @@ body.yhteystiedot-bg {
     color: #f8f9fa;
 }
 
+/* 🔥 Täysin responsiivinen tekstialue */
 .content-inner {
-    max-width: 900px;
+    width: 100%;
+    padding: 20px;
     margin: 0 auto;
 }
 
