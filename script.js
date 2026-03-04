@@ -1,4 +1,4 @@
-// Näytä yksinkertainen "laitetyyppi" media-kyselyn / näytön leveyden perusteella
+﻿// Näytä yksinkertainen "laitetyyppi" media-kyselyn / näytön leveyden perusteella
 (function showDeviceInfo() {
     var infoElement = document.getElementById("deviceInfo");
     if (!infoElement) return;
@@ -49,3 +49,4 @@
         }
     });
 })();
+
