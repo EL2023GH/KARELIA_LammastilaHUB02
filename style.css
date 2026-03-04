@@ -78,7 +78,7 @@ body.yhteystiedot-bg {
     width: 18px;
     height: auto;
     position: absolute;
-    right: 2px;
+    right: 9px;
     top: 50%;
     transform: translateY(-50%);
     margin-left: 0;
@@ -186,7 +186,7 @@ body.yhteystiedot-bg {
     }
     .menu-icon {
         width: 14px;
-        right: 1px;
+        right: 7px;
     }
 
     .order-link {
